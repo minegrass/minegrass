@@ -2,7 +2,8 @@
 -
 - I'm currently a SE student, but i self learn about programming before i start my uni course.
 - skills : 
-- javascript -> react,nextjs,nodejs
+- javascript
+- react,nextjs,MERN,
 - docker
 - python-> selenium, automation, simple GUI
 - 👀 I’m interested in web development, full stack development, automation, and interesting technology
