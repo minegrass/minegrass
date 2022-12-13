@@ -1,4 +1,6 @@
-- 👋 Hi, I’m @minegrass
+- 👋 Hi, I’m @minegrass 
+- Name : Tomato Wilbur Yap ![image](https://user-images.githubusercontent.com/25462796/207260203-d5958d8d-51a4-4e5c-b0b2-4a9d586c019f.png)
+
 -
 - I'm currently a SE student, but i self learn about programming before i start my uni course.
 - skills : 
