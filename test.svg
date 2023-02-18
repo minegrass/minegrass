@@ -1,77 +1,141 @@
-
+<link rel="stylesheet" href="./test.css">
 <svg fill="none" viewBox="0 0 600 400" width="600" height="400" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
   <div xmlns="http://www.w3.org/1999/xhtml">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            color: inherit;
-            text-decoration: none;
-            list-style: none;
-            outline: none;
-            box-sizing: border-box;
-          }
-          .body {
-            --color-main: #ff9b71;
-            --color-primary: #ff4444;
-            --color-secondary: #e8e677;
-            --color-background: #0d1117;
-            --color-link: #fef29e;
-            --color-link-active: #ff4444;
-            height: 400px;
-            width: 100%;
-            text-transform: uppercase;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-image: radial-gradient(var(--color-main), var(--color-primary), var(--color-secondary));
-            animation: border 5s linear infinite;
-            background-size: 200% 200%;
-            background-position: 0 0;
-            border: 24px solid;
-            border-color: var(--color-background);
-          }
-          .container {
-            background: var(--color-background);
-            height: calc(100% - 10px);
-            width: calc(100% - 10px);
-            display: flex;
-            flex-direction: column;
-          }
-          .animate-character
-          {
-             text-transform: uppercase;
-            background-image: linear-gradient(
-              -225deg,
-              #231557 0%,
-              #44107a 29%,
-              #ff1361 67%,
-              #fff800 100%
-            );
-            background-size: auto auto;
-            background-clip: border-box;
-            background-size: 200% auto;
-            color: #fff;
-            background-clip: text;
-            color:transparent;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: textclip 2s linear infinite;
-            display: inline-block;
-                font-size: calc(100%-10px)
-          }
-          
-          @keyframes textclip {
-            to {
-              background-position: 200% center;
-            }
-          }
-          
+      * {
+        margin: 0;
+        padding: 0;
+        color: inherit;
+        text-decoration: none;
+        list-style: none;
+        outline: none;
+        box-sizing: border-box;
+      }
+      .body {
+        --color-main: #ff9b71;
+        --color-primary: #ff4444;
+        --color-secondary: #e8e677;
+        --color-background: #0d1117;
+        --color-link: #fef29e;
+        --color-link-active: #ff4444;
+        height: 400px;
+        width: 100%;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: radial-gradient(var(--color-main), var(--color-primary), var(--color-secondary));
+        animation: border 5s linear infinite;
+        background-size: 200% 200%;
+        background-position: 0 0;
+        border: 24px solid;
+        border-color: var(--color-background);
+      }
+      .container {
+        background: var(--color-background);
+        height: calc(100% - 10px);
+        width: calc(100% - 10px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap:15px
+      }
+    
+      .tom-container{
+        background-color: white;
+        padding: 5px 10px 5px 10px;
+        border-radius: 25px;
+      }
+    
+    
+      .animate-character
+      {
+         text-transform: uppercase;
+        background-image: linear-gradient(
+          -225deg,
+          #231557 0%,
+          #44107a 29%,
+          #ff1361 67%,
+          #fff800 100%
+        );
+        background-size: auto auto;
+        background-clip: border-box;
+        background-size: 200% auto;
+        color: #fff;
+        background-clip: text;
+        color:transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 2s linear infinite;
+        display: inline-block;
+            font-size: calc(100%-10px)
+      }
+      
+      @keyframes textclip {
+        to {
+          background-position: 200% center;
+        }
+      }
+      
+      .waviy {
+        position: relative;
+        -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+        font-size: 10px;
+      }
+      .waviy span {
+        
+        font-family: 'Alfa Slab One', cursive;
+        position: relative;
+        display: inline-block;
+        color: #fff;
+        text-transform: uppercase;
+        animation: waviy 1s infinite;
+        animation-delay: calc(.05s * var(--i));
+        
+      }
+      @keyframes waviy {
+        0%,40%,100% {
+          transform: translateY(0)
+        }
+        20% {
+          transform: translateY(-10px)
+        }
+      }
     </style>
     <div class='body'>
       <div class='container'>
-        <h1 class="animate-character">Tomato Wilbur Yap</h1>
+        <div class="tom-container">
+        <h1 class="animate-character">Tomato Wilbur Yap </h1></div>
+        <div class="waviy">
+          <span style="--i:1">S</span>
+          <span style="--i:2">O</span>
+          <span style="--i:3">F</span>
+          <span style="--i:4">T</span>
+          <span style="--i:5">W</span>
+          <span style="--i:6">A</span>
+          <span style="--i:7">R</span>
+          <span style="--i:8">E</span>
+          <span style="--i:9"> </span>
+          <span style="--i:10">E</span>
+          <span style="--i:11">N</span>
+          <span style="--i:12">G</span>
+          <span style="--i:13">I</span>
+          <span style="--i:14">N</span>
+          <span style="--i:15">E</span>
+          <span style="--i:16">E</span>
+          <span style="--i:17">R</span>
+          <span style="--i:18"> </span>
+          <span style="--i:19">S</span>
+          <span style="--i:20">T</span>
+          <span style="--i:21">U</span>
+          <span style="--i:22">D</span>
+          <span style="--i:23">E</span>
+          <span style="--i:24">N</span>
+          <span style="--i:25">T</span>
+         </div>
+
         
       </div>
     </div>
