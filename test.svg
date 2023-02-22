@@ -49,6 +49,13 @@
         border-radius: 25px;
       }
     
+    .text-flag-container{
+      display:flex;
+      flex-direction:row;
+      align-items:center;
+      column-gap:10px;
+      
+    }
     
       .animate-character
       {
@@ -103,14 +110,20 @@
           transform: translateY(-10px)
         }
       }
+
     </style>
     <div class='body'>
       <div class='container'>
 
         <div class="tom-container">
-        <h1 class="animate-character">Tomato Wilbur Yap </h1></div>
-
+        <h1 class="animate-character">Tomato Wilbur Yap </h1>
+        </div>
+<div class="text-flag-container">
+<div class="flag">
+<img width="55" height="55" src="my-icon.svg" />
+      </div>
         <div class="waviy">
+        
           <span style="--i:1">S</span>
           <span style="--i:2">O</span>
           <span style="--i:3">F</span>
@@ -136,11 +149,16 @@
           <span style="--i:23">E</span>
           <span style="--i:24">N</span>
           <span style="--i:25">T</span>
+          
          </div>
+         
+      </div>
 
         
       </div>
+      
     </div>
+    
   </div>
 
   </foreignObject>
