@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="./test.css">
+
 <svg fill="none" viewBox="0 0 600 400" width="600" height="400" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
   <div xmlns="http://www.w3.org/1999/xhtml">
@@ -19,7 +19,7 @@
         --color-background: #0d1117;
         --color-link: #fef29e;
         --color-link-active: #ff4444;
-        height: 400px;
+        height: 200px;
         width: 100%;
         text-transform: uppercase;
         display: flex;
@@ -106,8 +106,10 @@
     </style>
     <div class='body'>
       <div class='container'>
+
         <div class="tom-container">
         <h1 class="animate-character">Tomato Wilbur Yap </h1></div>
+
         <div class="waviy">
           <span style="--i:1">S</span>
           <span style="--i:2">O</span>
@@ -140,5 +142,6 @@
       </div>
     </div>
   </div>
+
   </foreignObject>
 </svg>
