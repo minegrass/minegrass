@@ -4,13 +4,13 @@
 </div>
 
 
-- 📫 How to reach me **yapxh2004@hotmail.com**
+- 📫 How to reach me **yapxh2004@hotmail.com** ( Sorry but i dont check email frequently)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://fb.com/wilbur.yap.7" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="tomato wilbur yap" height="30" width="40" /></a>
 <a href="https://instagram.com/disistomato" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="disistomato" height="30" width="40" /></a>
-<a href="https://discord.gg/Tomato#9346" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Tomato#9346" height="30" width="40" /></a>
+<a href="https://discord.com/users/354146574533656586" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Tomato#9346" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
