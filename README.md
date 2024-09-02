@@ -4,7 +4,7 @@
 </div>
 
 
-- 📫 How to reach me **yapxh2004@hotmail.com** ( Sorry but i dont check email frequently)
+- 📫 How to reach me **yapxh2004@hotmail.com** ( Sorry but i dont always check my email)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
