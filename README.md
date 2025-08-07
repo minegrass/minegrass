@@ -1,7 +1,3 @@
-<div style="width: 100%;">
-    <img src="test.svg" style="width: 100%;">
-  </a>
-</div>
 
 
 - 📫 How to reach me **yapxh2004@hotmail.com** ( Sorry but i dont always check my email)
